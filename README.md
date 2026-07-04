@@ -14,6 +14,9 @@ HTML5: Structure and markup.
 CSS3: Fixed layout positioning and styling.
 JavaScript (Vanilla): DOM manipulation and slider logic.
 
+## live demo
+https://faraz-rahimi.github.io/image-slider/
+
 ## 👨‍💻 Author
 
 **Faraz Rahimi**
