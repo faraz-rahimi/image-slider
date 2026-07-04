@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>image slider</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slide-track"></div>
+      <button id="prev" aria-label="Previous image">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="currentColor" />
+        </svg>
+      </button>
+      <button id="next" aria-label="Next image">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="m8.59 16.59 1.41 1.41 6-6-6-6-1.41 1.41L13.17 12z" fill="currentColor" />
+        </svg>
+      </button>
+      <div id="dots" aria-label="Slide position"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
