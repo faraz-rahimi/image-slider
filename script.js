@@ -50,18 +50,28 @@ slideTrack.addEventListener("transitionend", (event) => {
   isAnimating = false;
 });
 
-nextButton.addEventListener("click", () => {
+nextButton.addEventListener("click", nextSlide);
+
+prevButton.addEventListener("click", () => {
   if (isAnimating) return;
-  currentIndex = (currentIndex + 1) % images.length;
+  isAnimating = true;
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
   updateDots();
   updateTrack();
 });
 
-prevButton.addEventListener("click", () => {
+function nextSlide() {
   if (isAnimating) return;
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  isAnimating = true;
+  currentIndex = (currentIndex + 1) % images.length;
   updateDots();
   updateTrack();
+}
+
+const autoSlide = setInterval(nextSlide, 3000);
+
+slideTrack.addEventListener("mouseover", () => {
+  clearInterval(autoSlide);
 });
 
 updateDots();
