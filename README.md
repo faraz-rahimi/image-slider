@@ -6,7 +6,7 @@ This image slider is designed for fixed-width desktop layouts. It provides a sim
 
 ##  Live demo
 
-http://image-slider.io/
+[http://image-slider.io/](https://faraz-rahimi.github.io/image-slider/)
 
 ## 🛠️ Key Features
 Simple Navigation: Includes manual “Next” and “Previous” controls.
