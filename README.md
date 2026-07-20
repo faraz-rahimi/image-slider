@@ -4,6 +4,10 @@ A clean, minimalist image slider component built with pure JavaScript. This proj
 ## 🎯 Project Overview
 This image slider is designed for fixed-width desktop layouts. It provides a simple, efficient way to display a series of images with essential navigation controls. By avoiding responsive overhead, the code remains highly readable and lightweight.
 
+##  Live demo
+
+http://image-slider.io/
+
 ## 🛠️ Key Features
 Simple Navigation: Includes manual “Next” and “Previous” controls.
 Clean Implementation: Built with Vanilla JavaScript; no external frameworks or libraries.
